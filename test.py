@@ -51,3 +51,9 @@ def say_whee():
     print('Whee!')
 
 say_whee()
+
+
+import time
+import math
+answer = math.log(int(time.time()))
+print(answer)
